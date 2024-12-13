@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #000;
+        }
+        header {
+            background: #1e90ff; /* Bleu pour rappeler la mer */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background: #ff4500; /* Orange pour rappeler le logo One Piece */
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        .produits {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .produit {
+            border: 2px solid #ff4500;
+            border-radius: 10px;
+            padding: 15px;
+            background: #fff;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+        }
+        .produit img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .produit h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .produit p {
+            color: #333;
+        }
+        .produit button {
+            background: #ff4500;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .produit button:hover {
+            background: #ff6347;
+        }
+        footer {
+            text-align: center;
+            background: #1e90ff;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .search-bar {
+            text-align: center;
+            margin: 20px;
+        }
+        .search-bar input {
+            padding: 10px;
+            width: 300px;
+            border: 2px solid #ff4500;
+            border-radius: 5px;
+        }
+        .search-bar button {
+            padding: 10px;
+            background: #ff4500;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur le One Piece Shop</h1>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="search.html">Produits</a>
+        <a href="details.html">Détails</a>
+        <a href="validation.html">Validation</a>
+    </nav>
+    <main>
+        <h2>Bienvenue</h2>
+        <p>Découvrez les meilleurs produits de l'univers de One Piece !</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher un produit...">
+            <button>Rechercher</button>
+        </div>
+        <h2>Nos produits populaires</h2>
+        <div class="produits">
+            <div class="produit">
+                <img src="onepiece_luffy_strawhat_1.jpeg" alt="Chapeau de Luffy">
+                <h3>Chapeau de Luffy</h3>
+                <p>Le célèbre chapeau de paille de Luffy. Indispensable pour tout fan !</p>
+                <button>Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="61aIsCDeyIL._AC_UF894,1000_QL80_.jpg" alt="Figurine Zoro">
+                <h3>Figurine Zoro</h3>
+                <p>Figurine détaillée de Roronoa Zoro, prête à l'action.</p>
+                <button>Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="617kleXEpKL._AC_UF894,1000_QL80_.jpg" alt="Figurine Sniper King">
+                <h3>Figurine Sniper King</h3>
+                <p>Revivez les aventures du roi des snipers avec cette figurine !</p>
+                <button>Ajouter au panier</button>
+            </div>
+            <div class="produit">
+                <img src="figurine-tony-tony-chopper-one-piece-all-aboard.jpg" alt="Figurine Chopper">
+                <h3>Figurine Chopper</h3>
+                <p>Le médecin adorable de l'équipage, maintenant chez vous !</p>
+                <button>Ajouter au panier</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 One Piece Shop. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+
+
+    
